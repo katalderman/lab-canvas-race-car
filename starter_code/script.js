@@ -47,7 +47,6 @@ window.onload = function() {
       }
           break;
       default:
-          console.log("oops");
   }
       this.drawCar();
   }
@@ -60,7 +59,6 @@ window.onload = function() {
     if(   (futureX >= theObstacle.x && futureX <= theObstacle.x+theObstacle.width) &&
     (futureY >= theObstacle.y && futureY <= theObstacle.y+theObstacle.height)     ){
       canIMove = false;
-      console.log("ouch");
     }
   });
     return canIMove;
